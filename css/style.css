@@ -1,0 +1,326 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("..//images/glitch.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: impact;
+	font-size: 1000%;
+}
+
+h1:hover {
+	transition-duration: 4s;
+	font-size: 50px;
+	text-shadow: 50px 50px white;
+}
+
+.container {
+	width: 90%;
+	min-height: 800px;
+	margin: auto;
+}
+
+.g1:hover:before {
+	content: "Glitch";
+	position: absolute;
+	text-indent: -30px;
+	color: red;
+	font-family: georgia;
+}
+
+.g2:hover:before {
+	content: "Art";
+	position: absolute;
+	text-indent: -30px;
+	color: blue;
+	font-family: arial;
+}
+
+.g3:hover:before {
+	content: "Gallery";
+	position: absolute;
+	text-indent: -30px;
+	color: #00f401;
+	font-family: "Comic Sans MS";
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 31.33%;
+	text-align: center;
+	color: white;
+	background-color: rgba(255, 255, 255, .2);
+	padding: 1%;
+	font-family: arial;
+}
+
+li:hover {
+	transition-duration: .5s;
+	transform: rotate(180deg);
+}
+
+.tab {
+	float: left;
+	text-align: center;
+	background: linear-gradient(#780202, red);
+	color: #4fff58;
+	padding: 1%;
+}
+
+.define {
+	line-height: 150%;
+	color: white;
+	background-color: rgba(255, 0, 0, .6);
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.home:hover:after {
+	content: "ThiS is tHe plAce You caLL HOME?";
+	position: absolute;
+	color: #5fffc9;
+	font-family: serif;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 1%;
+	transform: rotate(180deg);
+}
+
+.gallery:hover:after {
+	content: "LoOK at thE WoRld you LivE in?";
+	position: absolute;
+	color: #5fffc9;
+	font-family: serif;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 1%;
+	transform: rotate(180deg);
+}
+
+.about:hover:after {
+	content: "do You Really WanT to KnoW?";
+	position: absolute;
+	color: #5fffc9;
+	font-family: serif;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 1%;
+	transform: rotate(180deg);
+}
+
+img {
+	width: 50%;
+	text-align: center;
+}
+
+.earth {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/earthglitch.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.earth:hover {
+	background-image: url("..//images/earth.gif");
+}
+
+.gifs {
+	margin: auto;
+	text-align: center;
+}
+
+.gif img {
+	float: left;
+}
+
+.group {
+	margin: auto;
+	text-align: center;
+}
+/* Gallery Hover */
+.bomb:hover:before {
+	content: "do You Really WanT to KnoW?";
+	float: left;
+}
+/* Hover Images */
+.control1 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/school1glitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.control1:hover {
+	background-image: url("..//images/school1.jpg");
+}
+
+.control2 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/glitchFerguson.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.control2:hover {
+	background-image: url("..//images/furgeson.jpg");
+}
+
+.bomb1 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/syriaglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.bomb1:hover {
+	background-image: url("..//images/syria.jpg");
+}
+
+.bomb2 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/parisglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.bomb2:hover {
+	background-image: url("..//images/paris.jpg");
+}
+
+.bomb3 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/pakistanglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.bomb3:hover {
+	background-image: url("..//images/pakistan.jpg");
+}
+
+.social1 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/socialglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.social1:hover {
+	background-image: url("..//images/social.jpg");
+}
+
+.social2 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/kidsglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.social2:hover {
+	background-image: url("..//images/kids.jpeg");
+}
+
+.politics1 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/police1glitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.politics1:hover {
+	background-image: url("..//images/police1.jpg");
+}
+
+.politics2 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/police2glitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.politics2:hover {
+	background-image: url("..//images/police2.jpg");
+}
+
+.leader1 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/trump1glitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.leader1:hover {
+	background-image: url("..//images/trump1.jpg");
+}
+
+.leader2 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/kimglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.leader2:hover {
+	background-image: url("..//images/kim.jpg");
+}
+
+.leader3 {
+	margin: auto;
+	width: 70%;
+	height: 500px;
+	background-image: url("..//images/leaderglitch.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.leader3:hover {
+	background-image: url("..//images/leaders.jpg");
+}
+
+img {
+	float: right;
+}
+
+.group{
+	width: 70%;
+}
